@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 100dvh;
+  width: 100%;
+  background: #3F5EFB;
+  background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5rem;
+
+  h1{
+    font-size: clamp(1rem, 5vh, 8rem);
+    font-weight: 900;
+    color: white;
+
+  }
+
+  .boton{
+    color: purple;
+    text-decoration: none;
+    padding: 3rem 5rem;
+    background-color: white; 
+    border-radius: 5px;
+  }
+}
