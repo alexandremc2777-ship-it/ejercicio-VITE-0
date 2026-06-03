@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ScienceGothic';
+  src: url(./assets/ScienceGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/Roboto-Regular.ttf);
+}
+
+
+
+// Fuentes y variables
+
+$fuente01: 'ScienceGothic';
+$fuente02: 'Roboto';
+$color01: #3F5EFB;
+$color02:white;
+$color03:red; 
+$tablet: 800px;
+$desktop: 1300px;
+
+
+header, nav, main, section{
+  width: 100%;
+}
