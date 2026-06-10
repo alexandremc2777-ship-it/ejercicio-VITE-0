@@ -51,10 +51,10 @@ h1, h2, h3, h4{
 }
 
 h3{
-  color: $color01;
-  
+    color: $color01;
+    font-size: clamp(1rem, 5vw, 6rem);
+    text-align: center;
 }
-
 .boton{
   color: $color02;
   text-decoration: none;

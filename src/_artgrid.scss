@@ -1,0 +1,26 @@
+@use 'config' as c;
+
+.artgrid{
+    display: grid;
+    width: 100%;
+    gap: 1rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'area01'
+    'area02'
+    'area03'
+    'area04'
+    'area05'
+    'area06'
+    ;
+
+
+
+    >div{
+
+        
+    }
+
+
+}
