@@ -1,0 +1,13 @@
+@use 'config' as c;
+
+.artexper{
+    width: 100%;
+    padding: 0rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+
+}
