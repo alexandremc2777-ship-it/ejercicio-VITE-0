@@ -1,10 +1,11 @@
-@use 'config' as c;
-@use 'art01';
-@use 'art02';
-@use 'art03';
-@use 'artgrid';
-@use 'artexper';
-@use 'modulebanner';
+@use './assets/config' as c;
+@use './assets/art01';
+@use './assets/art02';
+@use './assets/art03';
+@use './assets/artgrid';
+@use './assets/artexper';
+@use './assets/modulebanner';
+@use './assets/artJs';
 
 
 
