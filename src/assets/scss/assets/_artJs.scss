@@ -40,5 +40,16 @@
                 padding: 2rem;
             }
         }
+
+        .desplegable{
+            height: 50px;
+            overflow: hidden;
+            interpolate-size: allow-keywords;
+            transition: height .5s ease-in-out;
+        }
+
+        .open{
+            height: auto;
+        }
     }
 }
