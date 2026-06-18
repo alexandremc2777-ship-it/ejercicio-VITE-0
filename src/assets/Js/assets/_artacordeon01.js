@@ -1,5 +1,6 @@
 
-
+export default function artacordeon01(){
+    
 const botones= document.querySelectorAll(".mostrar")
 
 // recorro con forEach y funciones flecha. ClassicList reogeria un estilo de la lista y con toggle haría la función acordeón, de poner y quitar el estilo.
@@ -14,3 +15,4 @@ botones.forEach((item)=>{
         miParrafo.classList.toggle("open")
     })
 })
+}
