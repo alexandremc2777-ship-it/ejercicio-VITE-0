@@ -23,7 +23,8 @@ $fuente01: 'ScienceGothic';
 $fuente02: 'Roboto';
 $color01: #3F5EFB;
 $color01svg: invert(31%) sepia(79%) saturate(3392%) hue-rotate(225deg) brightness(98%) contrast(100%);
-$color02:#ffffff;
+$color02: white;
+$color02bis: #ebebeb;
 $color03:#ff0000; 
 $tablet: 800px;
 $desktop: 1300px;
@@ -53,15 +54,22 @@ h1, h2, h3, h4{
 
 h3{
     color: $color01;
-    font-size: clamp(1rem, 5vw, 6rem);
+    font-size: clamp(1rem, 5vw, 4rem);
     text-align: center;
 }
+
+h4{
+  color: $color01;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+
 .boton{
   color: $color02;
   text-decoration: none;
-  padding: 2rem 5rem;
+  padding: 1rem 3rem;
   background-color: $color03; 
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 600;
   font-family: $fuente02;
   transition: 0.5s;
